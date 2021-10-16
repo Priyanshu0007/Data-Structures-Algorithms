@@ -18,15 +18,15 @@ void push()
 void pop()
 {
 	if(top==-1)
-		printf("--STACK UNDERFLOW--\n");
+		{printf("--STACK UNDERFLOW--\n");}
 	else
-		top--;
+		{top--;}
 }
 void printstack()
 {
 	int i;
 	if(top==-1)
-		return;
+		{return;}
 	else
 	{
 		for(i=0;i<=top;i++)
